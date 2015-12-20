@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <div class="outer">
+      <div class="container">
+        {% include page-header.html %}
+
+        <div class="page-content">
+          <div class="wrapper">
+            <ul class="post-list">
+              {% for post in site.posts %}
+                <li>
+                  <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                  <!--<div class="post-thumb"><img src="{{ post.thumbnail }}"></div>-->
+
+                  <h2>
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                  </h2>
+                  <p class="post-desc">{{ post.content }}</p>
+                </li>
+                {% endfor %}
+              </ul>
+            {{ content }}
+          </div>
+        </div>
+
+      </div>
+    </div>
+    {% include footer.html %}
+  </body>
+
+</html>

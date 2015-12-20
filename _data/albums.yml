@@ -1,0 +1,55 @@
+- title: Wool Tunnel
+  client: Hue
+  year: '2015'
+  link: https://hueeee.bandcamp.com/album/wool-tunnel
+  image: /images/wool-tunnel.jpg
+  client-url:
+
+- title: Boys Again
+  client: Hue
+  year: '2015'
+  link: https://hueeee.bandcamp.com/album/boys-again
+  image: /images/boysagain.jpg
+  client-url: https://hueeee.bandcamp.com/album/wool-tunnel
+
+- title: I Still See You
+  client: Blake Sweetland
+  year: '2015'
+  link: https://blakesweetland.bandcamp.com/album/i-still-see-you
+  image: /images/see-u.jpg
+  client-url:
+
+- title: EP2
+  client: WAYSoF
+  year: '2014'
+  link: https://wayshapeorform.bandcamp.com/album/ep2
+  image: /images/waysof-ep2.jpg
+  client-url:
+
+- title: Claws
+  client: Blake Sweetland
+  year: '2012'
+  link: https://blakesweetland.bandcamp.com/album/claws
+  image: /images/claws.jpg
+  client-url:
+
+- title: Person, Place, or Thing
+  client: WAYSoF
+  year: '2012'
+  link: https://wayshapeorform.bandcamp.com/album/person-place-or-thing
+  image: /images/ppot-waysof.jpg
+  client-url:
+
+- title: Archer's Jamboree
+  client: Houdan The Mystic
+  year: '2012'
+  link: https://houdanthemystic.bandcamp.com/album/archers-jamboree
+  image: /images/archers.jpg
+  client-url:
+
+- title: Sea Prism
+  client: Phantoms
+  year: '2012'
+  link: https://houdanthemystic.bandcamp.com/album/archersjamboree
+  image: /images/sea-prism.jpg
+  client-url:

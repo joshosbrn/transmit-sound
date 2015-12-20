@@ -1,0 +1,47 @@
+---
+layout: default
+---
+<div class="home-wrapper">
+
+  <div class="services">
+    <div class="meta">
+      <h1 class="title">Mixing &amp; Mastering</h1>
+      <div class="desc">
+        <p>Mixing is our *~favorite~*. There's just something special about taking the bones of a song and creating something newly beautiful. We've got years of experience mixing in all sorts of genres; we can handle it.</p>
+        <p>Here are a few projects we've mixed/mastered in the past that we're especially proud of:</p>
+      </div>
+    </div>
+    <ul class="album">
+      {% for projects in site.data.albums limit:8 %}
+        <li>
+          <a href="{{ projects.link }}">
+            <div class="wrapper">
+              <div class="album-info">
+                <img class="art" src="{{ projects.image }}">
+                <h1 class="name">{{ projects.title }}</h1>
+                <h3 class="byline">by <em><a href="{{ projects.client-url }}"><span class="client">{{ projects.client }}</span></a></em></h3>
+              </div>
+            </div>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="clear"></div>
+
+  <div class="services">
+    <div class="meta">
+      <h1 class="title">Podcasts</h1>
+      <div class="desc">
+        <p>Put our editing &amp; songwriting skills to the test. While we build our portfolio, enjoy reduced rates for all things podcast.</p>
+      </div>
+    </div>
+    <ul class="details">
+      <li><div class="number">1</div><div class="desc">Need theme music? We've been writing original music for a long, long time.</div></li>
+      <li><div class="number">2</div><div class="desc">We can write &amp; record mid-roll ads for your podcast. Lets work together to make something special.</div></li>
+      <li><div class="number">3</div><div class="desc">Need theme music? We've been writing original music for a long, long time.</div></li>
+    </ul>
+  </div>
+
+</div>

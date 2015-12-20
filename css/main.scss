@@ -1,0 +1,39 @@
+---
+---
+@charset "utf-8";
+
+// Our variables
+$brand-font: "Apercu Regular", Calibri, Roboto, sans-serif;
+$body-copy: "Scout RE";
+$serif-font: "adobe-text-pro",sans-serif;
+$base-line-height: 1.5;
+$base-letter-spacing: .02em;
+
+$spacing-unit:     30px;
+
+$text-color:       #fff;
+$background-color: #000;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          650px;
+$on-laptop:        900px;
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting"
+;
