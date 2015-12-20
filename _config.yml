@@ -2,10 +2,8 @@
 title: Transmit
 email: heeeeeey@josh.graphics
 description: Have any deep-seated opinions on what a modern music magazine should be that you've just been dying to tell someone? We're here for you — this site was built using Jekyll and it's contents are best sung to the tune of your favorite song.
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/transmit-sound" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
-twitter_username: joshosbrn
-github_username:  joshosbrn
 
 # Build settings
 markdown: kramdown
